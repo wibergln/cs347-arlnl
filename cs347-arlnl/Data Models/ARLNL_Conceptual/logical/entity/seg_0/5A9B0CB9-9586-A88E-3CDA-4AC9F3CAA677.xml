@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A9B0CB9-9586-A88E-3CDA-4AC9F3CAA677" name="Document">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-28 20:16:33 UTC</createdTime>
+<ownerDesignName>ARLNL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="5AE363DC-9F5C-28B0-E88F-C5EFF12C4F93" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="document_id" id="92D64991-A46E-970D-B94A-93F5B2E275C8">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-28 20:16:34 UTC</createdTime>
+<ownerDesignName>ARLNL_Conceptual</ownerDesignName>
+<importedID>C76490B6-E435-3352-2F68-5ACA417BEB61</importedID>
+<engineerTo>
+<item key="5AE363DC-9F5C-28B0-E88F-C5EFF12C4F93" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="attach_mimetype" id="16F92345-E288-C4B7-D172-430D41DFAF93">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-28 20:16:39 UTC</createdTime>
+<ownerDesignName>ARLNL_Conceptual</ownerDesignName>
+<importedID>F5F96323-D90A-C904-A0F0-F39322B59D6A</importedID>
+<engineerTo>
+<item key="5AE363DC-9F5C-28B0-E88F-C5EFF12C4F93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="attach_filename" id="DD54AD8A-D73A-FB69-D67E-0D2CBC04D0F4">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-28 20:16:39 UTC</createdTime>
+<ownerDesignName>ARLNL_Conceptual</ownerDesignName>
+<importedID>E78960B0-D0A7-DC54-10CC-301E29C63D30</importedID>
+<engineerTo>
+<item key="5AE363DC-9F5C-28B0-E88F-C5EFF12C4F93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="attach_last_update" id="197055A6-0BD2-15CD-E09B-EF392FD4A15F">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-28 20:16:39 UTC</createdTime>
+<ownerDesignName>ARLNL_Conceptual</ownerDesignName>
+<importedID>676AAE02-7F67-F724-164B-ACEFDA71DA96</importedID>
+<engineerTo>
+<item key="5AE363DC-9F5C-28B0-E88F-C5EFF12C4F93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="attach_charset" id="CB47A6FA-B1C9-06DD-B493-364E8FDBF91A">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-28 20:16:39 UTC</createdTime>
+<ownerDesignName>ARLNL_Conceptual</ownerDesignName>
+<importedID>E3648FB4-5829-8306-F09D-6B8B574FE1F4</importedID>
+<engineerTo>
+<item key="5AE363DC-9F5C-28B0-E88F-C5EFF12C4F93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+</Attribute>
+<Attribute name="attach_file" id="6527C47C-81BD-B412-DB33-B3FD4ECB0D1C">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-28 20:16:39 UTC</createdTime>
+<ownerDesignName>ARLNL_Conceptual</ownerDesignName>
+<importedID>B9A5C043-920A-919C-782B-C7616E089B52</importedID>
+<engineerTo>
+<item key="5AE363DC-9F5C-28B0-E88F-C5EFF12C4F93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Attribute>
+<Attribute name="employee_id" id="5597AA8A-9FAD-AB81-168F-C2FCD0A55ABE">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-28 20:18:12 UTC</createdTime>
+<generatorID>98302E15-174D-8C03-D489-1A3C0626EC61</generatorID>
+<ownerDesignName>ARLNL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="5AE363DC-9F5C-28B0-E88F-C5EFF12C4F93" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7573261C-D2E3-5E3A-2960-6F0F99DBB489</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5CF0D136-AC47-A55B-BA07-C190EED6BCBE" name="{entity} PK">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-28 20:16:39 UTC</createdTime>
+<ownerDesignName>ARLNL_Conceptual</ownerDesignName>
+<engineerTo>
+<item key="5AE363DC-9F5C-28B0-E88F-C5EFF12C4F93" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92D64991-A46E-970D-B94A-93F5B2E275C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

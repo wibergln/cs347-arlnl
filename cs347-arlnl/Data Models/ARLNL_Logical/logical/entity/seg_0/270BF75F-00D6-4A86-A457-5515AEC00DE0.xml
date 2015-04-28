@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="270BF75F-00D6-4A86-A457-5515AEC00DE0" name="Division">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 22:23:03 UTC</createdTime>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<engineerTo>
+<item key="F89EA2E9-66C7-D58A-6F49-21AA1DC570BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="division_id" id="C5F3FFB2-2B46-51DE-10CE-352D20561AD2">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 22:23:14 UTC</createdTime>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<engineerTo>
+<item key="F89EA2E9-66C7-D58A-6F49-21AA1DC570BC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+<Attribute name="lab_id" id="7D30B14B-C5A5-C606-932D-19B6021145E6">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 22:28:11 UTC</createdTime>
+<generatorID>5A98CBE1-1C3A-661A-04BB-2457176D71EB</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<engineerTo>
+<item key="F89EA2E9-66C7-D58A-6F49-21AA1DC570BC" value="true"/>
+</engineerTo>
+<referedAttribute>E3B675BE-3459-5108-52C2-34B771AA005E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23A2B241-AED9-2E3A-F0B4-AA263E2FB9ED" name="{entity} PK">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 22:23:53 UTC</createdTime>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<engineerTo>
+<item key="F89EA2E9-66C7-D58A-6F49-21AA1DC570BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C5F3FFB2-2B46-51DE-10CE-352D20561AD2</attributeRef>
+<attributeRef>7D30B14B-C5A5-C606-932D-19B6021145E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A50DFF7D-0433-6915-CD9C-D884D96C1DCA" name="Employee">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>A98B8D8E-4832-6B92-93F4-C4FDCD8130EF</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="795D2B68-3AB5-E606-1BA6-CFEB8D431D0D">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>4A383BB5-CE4F-BA07-0517-C43F7E5ED513</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="4D5767B3-93B9-D1B9-0046-C8953DC6EE16">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>73C48DF3-C0B0-14F5-001A-B27DC77A0B21</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="828CF16D-3FA2-11CC-4F30-1EA5B4504072">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>F4AADAB9-39FE-12B3-EC15-710E08674D9E</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lab" id="496E5657-E2E6-00AA-9D73-08A031B3D55A">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>C0DCEECF-CB73-6E3C-37D1-471776BEB4A6</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="division" id="690BAE98-C425-ADA4-C176-A41A6D9E8DBB">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>0844E681-060F-FE86-7D2D-B4A061E18E69</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_effective_date" id="458ACF57-DE74-7C9F-F1C1-D824DCC1D578">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>595CE34D-03B8-5EF5-BA9C-51ECDEADFF92</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_admin" id="5651460D-939C-A736-3446-796A9DAC2E7F">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>F739DE9E-C6BF-B0F1-18B3-5EBED1ECC12D</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA3D11AB-C64E-2AA8-5603-B44EA86219C8" name="Employee_PK">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>85E173D7-67DA-DA4B-5E53-439CE5F41A75</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="795D2B68-3AB5-E606-1BA6-CFEB8D431D0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

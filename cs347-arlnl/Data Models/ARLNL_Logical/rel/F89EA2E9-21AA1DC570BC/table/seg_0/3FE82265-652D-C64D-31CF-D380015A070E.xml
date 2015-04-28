@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FE82265-652D-C64D-31CF-D380015A070E" name="List">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>E08218BA-A1AD-8594-D95B-1DA35C195C06</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nl_id" id="5FF8B800-21B1-E97D-34FD-03ED75340F29">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>92D34ECA-DBB6-615E-1704-EFC9972C3DD6</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="292F44AA-7A03-0CEA-8793-1DCE80019369">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>7588135F-912E-265C-971D-87EE83399F82</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="F5FC1764-94B9-1C7A-4067-7264E3CE8B95">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>BB590CA4-79DA-CF9B-07CB-24DA0FA5E000</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="external_name" id="A54AEB73-DEB5-4E89-F6C7-629F1F6EF17C">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>D0F6782F-44B1-6D8A-1612-183B7725E106</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="division_code" id="3B5D27ED-E33F-67BC-6659-0C4495BED9A8">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>23006AA4-5489-1179-6969-B51FE7C48E04</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="192F4889-51B9-FE7D-0E8C-7C4A654D5F05">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>F9A13A38-042E-25F6-6F9C-5B99500CC0A2</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_effective_date" id="ADF2E513-B29E-F928-8B63-A3041D42A3A6">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>94E2D8DD-F67B-0C82-51F3-6CC5C6C6EA14</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="026E5A2D-2192-FF9E-CD4A-CBA6B3D6A46A" name="List_PK">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>31E30C8C-B42D-84FA-97E8-CE85FC0F7116</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FF8B800-21B1-E97D-34FD-03ED75340F29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
