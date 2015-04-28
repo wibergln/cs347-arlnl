@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2ECD45F2-92D0-6A87-E9BB-0D51EFA64C67" name="Lab">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>32894ED0-5BCD-DE2A-A988-5F90C77D3BFD</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lab_id" id="A086470D-0935-920F-F7FB-92A95A922003">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>E3B675BE-3459-5108-52C2-34B771AA005E</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E31F8E5-BA29-AD80-E415-B56C02F6D537" name="Lab_PK">
+<createdBy>ellen2</createdBy>
+<createdTime>2015-04-20 23:26:50 UTC</createdTime>
+<generatorID>04FD2977-5C9A-6C50-6399-A1E7E57A0BC7</generatorID>
+<ownerDesignName>ARLNL_Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A086470D-0935-920F-F7FB-92A95A922003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
